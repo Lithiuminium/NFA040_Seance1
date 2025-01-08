@@ -1,26 +1,24 @@
-<table>
-        <thead>
-            <tr>
-                <th>Produit</th>
-                <th>Prix</th>
-                <th>Quantité</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Pomme</td>
-                <td>1.00 €</td>
-                <td>10</td>
-            </tr>
-            <tr>
-                <td>Banane</td>
-                <td>0.80 €</td>
-                <td>15</td>
-            </tr>
-            <tr>
-                <td>Orange</td>
-                <td>1.20 €</td>
-                <td>8</td>
-            </tr>
-        </tbody>
-    </table>
+<section>
+        <h2>Exercice 3 : Formulaire</h2>
+        <form>
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom"><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="date">Date de naissance :</label>
+            <input type="date" id="date" name="date"><br><br>
+
+            <label for="choix">Choisissez :</label>
+            <select id="choix" name="choix">
+                <option value="option1">Option 1</option>
+                <option value="option2">Option 2</option>
+            </select><br><br>
+
+            <input type="checkbox" id="check1" name="check1">
+            <label for="check1">Accepter les termes</label><br><br>
+
+            <input type="submit" value="Envoyer">
+        </form>
+</section>
