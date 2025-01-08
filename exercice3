@@ -1,1 +1,26 @@
-test
+<table>
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Prix</th>
+                <th>Quantité</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pomme</td>
+                <td>1.00 €</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>Banane</td>
+                <td>0.80 €</td>
+                <td>15</td>
+            </tr>
+            <tr>
+                <td>Orange</td>
+                <td>1.20 €</td>
+                <td>8</td>
+            </tr>
+        </tbody>
+    </table>
