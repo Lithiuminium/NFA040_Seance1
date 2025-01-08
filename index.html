@@ -145,25 +145,127 @@
 
     <!-- Exercice 4 -->
     <section>
-        <h2>Exercice 4 : Mini CV</h2>
-        <table>
-            <tr>
-                <td colspan="2"><img src="https://studio-mir.fr/wp-content/uploads/2021/03/Portrait-photo-dans-Val-de-Marne-pour-mon-CV-et-mon-profil-LinkedIn.jpg" alt="Ma photo" width="150"></td>
-            </tr>
-            <tr>
-                <th>Formation</th>
-                <td>
-                    <ul>
-                        <li>2020-2021 : Campus Montsouris</li>
-                        <li>2019-2020 : Lycée de cachan </li>
-                    </ul>
-                </td>
-            </tr>
-            <tr>
-                <th>Compétences</th>
-                <td>Compétences ici</td>
-            </tr>
-        </table>
+        
+                
+               <title>CV avec Rubriques et Image</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px auto;
+            max-width: 900px;
+            line-height: 1.5;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        th, td {
+            padding: 10px;
+        }
+        .bordered {
+            border: 1px solid #ccc;
+        }
+        h2 {
+            margin-top: 20px;
+            color: #333;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        img {
+            max-width: 100px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Mon CV</h1>
+
+    <!-- Tableau d'informations standards avec une image -->
+    <table class="bordered">
+        <tr>
+            <td rowspan="2">
+                <img src="https://studio-mir.fr/wp-content/uploads/2021/03/Portrait-photo-dans-Val-de-Marne-pour-mon-CV-et-mon-profil-LinkedIn.jpg" alt="Photo de profil">
+            </td>
+            <td><strong>Nom :</strong> Jean Dupont</td>
+        </tr>
+        <tr>
+            <td><strong>Email :</strong> jean.dupont@example.com</td>
+        </tr>
+        <tr>
+            <td><strong>Téléphone :</strong> 06 12 34 56 78</td>
+            <td><strong>Adresse :</strong> 123, Rue de Paris, 75000 Paris</td>
+        </tr>
+    </table>
+
+    <!-- Formation -->
+    <h2>Formation</h2>
+    <table>
+        <tr>
+            <td width="30%">
+                <ul>
+                    <li>2020-2021</li>
+                    <li>2018-2020</li>
+                </ul>
+            </td>
+            <td width="70%">
+                <ul>
+                    <li>Master en Informatique, Université de Paris</li>
+                    <li>Licence en Informatique, Université de Lyon</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Expérience professionnelle -->
+    <h2>Expérience professionnelle</h2>
+    <table>
+        <tr>
+            <td width="30%">
+                <ul>
+                    <li>2021-2023</li>
+                    <li>2019-2021</li>
+                </ul>
+            </td>
+            <td width="70%">
+                <ul>
+                    <li>Développeur Full Stack, Entreprise X</li>
+                    <li>Stagiaire en développement web, Société Y</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Compétences -->
+    <h2>Compétences</h2>
+    <table>
+        <tr>
+            <td width="30%">
+                <ul>
+                    <li>Langages</li>
+                    <li>Outils</li>
+                </ul>
+            </td>
+            <td width="70%">
+                <ul>
+                    <li>Java, Python, JavaScript</li>
+                    <li>Git, Docker, AWS</li>
+                </ul>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Informations complémentaires -->
+    <h2>Informations Complémentaires</h2>
+    <table>
+        <tr>
+            <td colspan="2">
+                <p>Passionné de photographie et membre actif d'une association de bénévolat.</p>
+            </td>
+        </tr>
+    </table>
     </section>
 </body>
 </html>
