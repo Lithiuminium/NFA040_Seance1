@@ -1,0 +1,20 @@
+<section>
+        <h2>Exercice 1 : Votre première page HTML</h2>
+        <h3>Titrage et mise en forme</h3>
+        <b>Texte en gras</b><br>
+        <i>Texte en italique</i><br>
+        <u>Texte souligné</u><br>
+
+        <h3>Liens</h3>
+        <a href="actualite.html">Lien vers actualite.html</a><br>
+        <a href="mailto:exemple@email.com">Envoyer un email</a><br>
+
+        <h3>Listes</h3>
+        <ul>
+            <li>Liste principale
+                <ul>
+                    <li>Liste imbriquée</li>
+                </ul>
+            </li>
+        </ul>
+</section>
